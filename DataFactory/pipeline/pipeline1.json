@@ -29,7 +29,3722 @@
 						"type": "AzureSqlSink",
 						"tableOption": "autoCreate"
 					},
-					"enableStaging": false
+					"enableStaging": false,
+					"translator": {
+						"type": "TabularTranslator",
+						"mappings": [
+							{
+								"source": {
+									"name": "ID",
+									"type": "String"
+								},
+								"sink": {
+									"name": "ID",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "var3",
+									"type": "String"
+								},
+								"sink": {
+									"name": "var3",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "var15",
+									"type": "String"
+								},
+								"sink": {
+									"name": "var15",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "imp_ent_var16_ult1",
+									"type": "String"
+								},
+								"sink": {
+									"name": "imp_ent_var16_ult1",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "imp_op_var39_comer_ult1",
+									"type": "String"
+								},
+								"sink": {
+									"name": "imp_op_var39_comer_ult1",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "imp_op_var39_comer_ult3",
+									"type": "String"
+								},
+								"sink": {
+									"name": "imp_op_var39_comer_ult3",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "imp_op_var40_comer_ult1",
+									"type": "String"
+								},
+								"sink": {
+									"name": "imp_op_var40_comer_ult1",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "imp_op_var40_comer_ult3",
+									"type": "String"
+								},
+								"sink": {
+									"name": "imp_op_var40_comer_ult3",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "imp_op_var40_efect_ult1",
+									"type": "String"
+								},
+								"sink": {
+									"name": "imp_op_var40_efect_ult1",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "imp_op_var40_efect_ult3",
+									"type": "String"
+								},
+								"sink": {
+									"name": "imp_op_var40_efect_ult3",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "imp_op_var40_ult1",
+									"type": "String"
+								},
+								"sink": {
+									"name": "imp_op_var40_ult1",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "imp_op_var41_comer_ult1",
+									"type": "String"
+								},
+								"sink": {
+									"name": "imp_op_var41_comer_ult1",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "imp_op_var41_comer_ult3",
+									"type": "String"
+								},
+								"sink": {
+									"name": "imp_op_var41_comer_ult3",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "imp_op_var41_efect_ult1",
+									"type": "String"
+								},
+								"sink": {
+									"name": "imp_op_var41_efect_ult1",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "imp_op_var41_efect_ult3",
+									"type": "String"
+								},
+								"sink": {
+									"name": "imp_op_var41_efect_ult3",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "imp_op_var41_ult1",
+									"type": "String"
+								},
+								"sink": {
+									"name": "imp_op_var41_ult1",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "imp_op_var39_efect_ult1",
+									"type": "String"
+								},
+								"sink": {
+									"name": "imp_op_var39_efect_ult1",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "imp_op_var39_efect_ult3",
+									"type": "String"
+								},
+								"sink": {
+									"name": "imp_op_var39_efect_ult3",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "imp_op_var39_ult1",
+									"type": "String"
+								},
+								"sink": {
+									"name": "imp_op_var39_ult1",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "imp_sal_var16_ult1",
+									"type": "String"
+								},
+								"sink": {
+									"name": "imp_sal_var16_ult1",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "ind_var1_0",
+									"type": "String"
+								},
+								"sink": {
+									"name": "ind_var1_0",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "ind_var1",
+									"type": "String"
+								},
+								"sink": {
+									"name": "ind_var1",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "ind_var2_0",
+									"type": "String"
+								},
+								"sink": {
+									"name": "ind_var2_0",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "ind_var2",
+									"type": "String"
+								},
+								"sink": {
+									"name": "ind_var2",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "ind_var5_0",
+									"type": "String"
+								},
+								"sink": {
+									"name": "ind_var5_0",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "ind_var5",
+									"type": "String"
+								},
+								"sink": {
+									"name": "ind_var5",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "ind_var6_0",
+									"type": "String"
+								},
+								"sink": {
+									"name": "ind_var6_0",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "ind_var6",
+									"type": "String"
+								},
+								"sink": {
+									"name": "ind_var6",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "ind_var8_0",
+									"type": "String"
+								},
+								"sink": {
+									"name": "ind_var8_0",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "ind_var8",
+									"type": "String"
+								},
+								"sink": {
+									"name": "ind_var8",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "ind_var12_0",
+									"type": "String"
+								},
+								"sink": {
+									"name": "ind_var12_0",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "ind_var12",
+									"type": "String"
+								},
+								"sink": {
+									"name": "ind_var12",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "ind_var13_0",
+									"type": "String"
+								},
+								"sink": {
+									"name": "ind_var13_0",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "ind_var13_corto_0",
+									"type": "String"
+								},
+								"sink": {
+									"name": "ind_var13_corto_0",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "ind_var13_corto",
+									"type": "String"
+								},
+								"sink": {
+									"name": "ind_var13_corto",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "ind_var13_largo_0",
+									"type": "String"
+								},
+								"sink": {
+									"name": "ind_var13_largo_0",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "ind_var13_largo",
+									"type": "String"
+								},
+								"sink": {
+									"name": "ind_var13_largo",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "ind_var13_medio_0",
+									"type": "String"
+								},
+								"sink": {
+									"name": "ind_var13_medio_0",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "ind_var13_medio",
+									"type": "String"
+								},
+								"sink": {
+									"name": "ind_var13_medio",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "ind_var13",
+									"type": "String"
+								},
+								"sink": {
+									"name": "ind_var13",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "ind_var14_0",
+									"type": "String"
+								},
+								"sink": {
+									"name": "ind_var14_0",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "ind_var14",
+									"type": "String"
+								},
+								"sink": {
+									"name": "ind_var14",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "ind_var17_0",
+									"type": "String"
+								},
+								"sink": {
+									"name": "ind_var17_0",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "ind_var17",
+									"type": "String"
+								},
+								"sink": {
+									"name": "ind_var17",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "ind_var18_0",
+									"type": "String"
+								},
+								"sink": {
+									"name": "ind_var18_0",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "ind_var18",
+									"type": "String"
+								},
+								"sink": {
+									"name": "ind_var18",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "ind_var19",
+									"type": "String"
+								},
+								"sink": {
+									"name": "ind_var19",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "ind_var20_0",
+									"type": "String"
+								},
+								"sink": {
+									"name": "ind_var20_0",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "ind_var20",
+									"type": "String"
+								},
+								"sink": {
+									"name": "ind_var20",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "ind_var24_0",
+									"type": "String"
+								},
+								"sink": {
+									"name": "ind_var24_0",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "ind_var24",
+									"type": "String"
+								},
+								"sink": {
+									"name": "ind_var24",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "ind_var25_cte",
+									"type": "String"
+								},
+								"sink": {
+									"name": "ind_var25_cte",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "ind_var26_0",
+									"type": "String"
+								},
+								"sink": {
+									"name": "ind_var26_0",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "ind_var26_cte",
+									"type": "String"
+								},
+								"sink": {
+									"name": "ind_var26_cte",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "ind_var26",
+									"type": "String"
+								},
+								"sink": {
+									"name": "ind_var26",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "ind_var25_0",
+									"type": "String"
+								},
+								"sink": {
+									"name": "ind_var25_0",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "ind_var25",
+									"type": "String"
+								},
+								"sink": {
+									"name": "ind_var25",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "ind_var27_0",
+									"type": "String"
+								},
+								"sink": {
+									"name": "ind_var27_0",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "ind_var28_0",
+									"type": "String"
+								},
+								"sink": {
+									"name": "ind_var28_0",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "ind_var28",
+									"type": "String"
+								},
+								"sink": {
+									"name": "ind_var28",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "ind_var27",
+									"type": "String"
+								},
+								"sink": {
+									"name": "ind_var27",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "ind_var29_0",
+									"type": "String"
+								},
+								"sink": {
+									"name": "ind_var29_0",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "ind_var29",
+									"type": "String"
+								},
+								"sink": {
+									"name": "ind_var29",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "ind_var30_0",
+									"type": "String"
+								},
+								"sink": {
+									"name": "ind_var30_0",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "ind_var30",
+									"type": "String"
+								},
+								"sink": {
+									"name": "ind_var30",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "ind_var31_0",
+									"type": "String"
+								},
+								"sink": {
+									"name": "ind_var31_0",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "ind_var31",
+									"type": "String"
+								},
+								"sink": {
+									"name": "ind_var31",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "ind_var32_cte",
+									"type": "String"
+								},
+								"sink": {
+									"name": "ind_var32_cte",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "ind_var32_0",
+									"type": "String"
+								},
+								"sink": {
+									"name": "ind_var32_0",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "ind_var32",
+									"type": "String"
+								},
+								"sink": {
+									"name": "ind_var32",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "ind_var33_0",
+									"type": "String"
+								},
+								"sink": {
+									"name": "ind_var33_0",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "ind_var33",
+									"type": "String"
+								},
+								"sink": {
+									"name": "ind_var33",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "ind_var34_0",
+									"type": "String"
+								},
+								"sink": {
+									"name": "ind_var34_0",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "ind_var34",
+									"type": "String"
+								},
+								"sink": {
+									"name": "ind_var34",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "ind_var37_cte",
+									"type": "String"
+								},
+								"sink": {
+									"name": "ind_var37_cte",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "ind_var37_0",
+									"type": "String"
+								},
+								"sink": {
+									"name": "ind_var37_0",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "ind_var37",
+									"type": "String"
+								},
+								"sink": {
+									"name": "ind_var37",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "ind_var39_0",
+									"type": "String"
+								},
+								"sink": {
+									"name": "ind_var39_0",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "ind_var40_0",
+									"type": "String"
+								},
+								"sink": {
+									"name": "ind_var40_0",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "ind_var40",
+									"type": "String"
+								},
+								"sink": {
+									"name": "ind_var40",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "ind_var41_0",
+									"type": "String"
+								},
+								"sink": {
+									"name": "ind_var41_0",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "ind_var41",
+									"type": "String"
+								},
+								"sink": {
+									"name": "ind_var41",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "ind_var39",
+									"type": "String"
+								},
+								"sink": {
+									"name": "ind_var39",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "ind_var44_0",
+									"type": "String"
+								},
+								"sink": {
+									"name": "ind_var44_0",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "ind_var44",
+									"type": "String"
+								},
+								"sink": {
+									"name": "ind_var44",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "ind_var46_0",
+									"type": "String"
+								},
+								"sink": {
+									"name": "ind_var46_0",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "ind_var46",
+									"type": "String"
+								},
+								"sink": {
+									"name": "ind_var46",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_var1_0",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_var1_0",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_var1",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_var1",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_var4",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_var4",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_var5_0",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_var5_0",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_var5",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_var5",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_var6_0",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_var6_0",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_var6",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_var6",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_var8_0",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_var8_0",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_var8",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_var8",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_var12_0",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_var12_0",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_var12",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_var12",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_var13_0",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_var13_0",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_var13_corto_0",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_var13_corto_0",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_var13_corto",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_var13_corto",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_var13_largo_0",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_var13_largo_0",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_var13_largo",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_var13_largo",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_var13_medio_0",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_var13_medio_0",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_var13_medio",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_var13_medio",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_var13",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_var13",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_var14_0",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_var14_0",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_var14",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_var14",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_var17_0",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_var17_0",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_var17",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_var17",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_var18_0",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_var18_0",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_var18",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_var18",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_var20_0",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_var20_0",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_var20",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_var20",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_var24_0",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_var24_0",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_var24",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_var24",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_var26_0",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_var26_0",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_var26",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_var26",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_var25_0",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_var25_0",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_var25",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_var25",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_op_var40_hace2",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_op_var40_hace2",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_op_var40_hace3",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_op_var40_hace3",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_op_var40_ult1",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_op_var40_ult1",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_op_var40_ult3",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_op_var40_ult3",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_op_var41_hace2",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_op_var41_hace2",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_op_var41_hace3",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_op_var41_hace3",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_op_var41_ult1",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_op_var41_ult1",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_op_var41_ult3",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_op_var41_ult3",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_op_var39_hace2",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_op_var39_hace2",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_op_var39_hace3",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_op_var39_hace3",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_op_var39_ult1",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_op_var39_ult1",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_op_var39_ult3",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_op_var39_ult3",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_var27_0",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_var27_0",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_var28_0",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_var28_0",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_var28",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_var28",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_var27",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_var27",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_var29_0",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_var29_0",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_var29",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_var29",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_var30_0",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_var30_0",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_var30",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_var30",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_var31_0",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_var31_0",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_var31",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_var31",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_var32_0",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_var32_0",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_var32",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_var32",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_var33_0",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_var33_0",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_var33",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_var33",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_var34_0",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_var34_0",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_var34",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_var34",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_var35",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_var35",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_var37_med_ult2",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_var37_med_ult2",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_var37_0",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_var37_0",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_var37",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_var37",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_var39_0",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_var39_0",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_var40_0",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_var40_0",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_var40",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_var40",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_var41_0",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_var41_0",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_var41",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_var41",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_var39",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_var39",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_var42_0",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_var42_0",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_var42",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_var42",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_var44_0",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_var44_0",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_var44",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_var44",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_var46_0",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_var46_0",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_var46",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_var46",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "saldo_var1",
+									"type": "String"
+								},
+								"sink": {
+									"name": "saldo_var1",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "saldo_var5",
+									"type": "String"
+								},
+								"sink": {
+									"name": "saldo_var5",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "saldo_var6",
+									"type": "String"
+								},
+								"sink": {
+									"name": "saldo_var6",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "saldo_var8",
+									"type": "String"
+								},
+								"sink": {
+									"name": "saldo_var8",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "saldo_var12",
+									"type": "String"
+								},
+								"sink": {
+									"name": "saldo_var12",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "saldo_var13_corto",
+									"type": "String"
+								},
+								"sink": {
+									"name": "saldo_var13_corto",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "saldo_var13_largo",
+									"type": "String"
+								},
+								"sink": {
+									"name": "saldo_var13_largo",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "saldo_var13_medio",
+									"type": "String"
+								},
+								"sink": {
+									"name": "saldo_var13_medio",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "saldo_var13",
+									"type": "String"
+								},
+								"sink": {
+									"name": "saldo_var13",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "saldo_var14",
+									"type": "String"
+								},
+								"sink": {
+									"name": "saldo_var14",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "saldo_var17",
+									"type": "String"
+								},
+								"sink": {
+									"name": "saldo_var17",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "saldo_var18",
+									"type": "String"
+								},
+								"sink": {
+									"name": "saldo_var18",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "saldo_var20",
+									"type": "String"
+								},
+								"sink": {
+									"name": "saldo_var20",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "saldo_var24",
+									"type": "String"
+								},
+								"sink": {
+									"name": "saldo_var24",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "saldo_var26",
+									"type": "String"
+								},
+								"sink": {
+									"name": "saldo_var26",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "saldo_var25",
+									"type": "String"
+								},
+								"sink": {
+									"name": "saldo_var25",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "saldo_var28",
+									"type": "String"
+								},
+								"sink": {
+									"name": "saldo_var28",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "saldo_var27",
+									"type": "String"
+								},
+								"sink": {
+									"name": "saldo_var27",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "saldo_var29",
+									"type": "String"
+								},
+								"sink": {
+									"name": "saldo_var29",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "saldo_var30",
+									"type": "String"
+								},
+								"sink": {
+									"name": "saldo_var30",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "saldo_var31",
+									"type": "String"
+								},
+								"sink": {
+									"name": "saldo_var31",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "saldo_var32",
+									"type": "String"
+								},
+								"sink": {
+									"name": "saldo_var32",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "saldo_var33",
+									"type": "String"
+								},
+								"sink": {
+									"name": "saldo_var33",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "saldo_var34",
+									"type": "String"
+								},
+								"sink": {
+									"name": "saldo_var34",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "saldo_var37",
+									"type": "String"
+								},
+								"sink": {
+									"name": "saldo_var37",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "saldo_var40",
+									"type": "String"
+								},
+								"sink": {
+									"name": "saldo_var40",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "saldo_var41",
+									"type": "String"
+								},
+								"sink": {
+									"name": "saldo_var41",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "saldo_var42",
+									"type": "String"
+								},
+								"sink": {
+									"name": "saldo_var42",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "saldo_var44",
+									"type": "String"
+								},
+								"sink": {
+									"name": "saldo_var44",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "saldo_var46",
+									"type": "String"
+								},
+								"sink": {
+									"name": "saldo_var46",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "var36",
+									"type": "String"
+								},
+								"sink": {
+									"name": "var36",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "delta_imp_amort_var18_1y3",
+									"type": "String"
+								},
+								"sink": {
+									"name": "delta_imp_amort_var18_1y3",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "delta_imp_amort_var34_1y3",
+									"type": "String"
+								},
+								"sink": {
+									"name": "delta_imp_amort_var34_1y3",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "delta_imp_aport_var13_1y3",
+									"type": "String"
+								},
+								"sink": {
+									"name": "delta_imp_aport_var13_1y3",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "delta_imp_aport_var17_1y3",
+									"type": "String"
+								},
+								"sink": {
+									"name": "delta_imp_aport_var17_1y3",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "delta_imp_aport_var33_1y3",
+									"type": "String"
+								},
+								"sink": {
+									"name": "delta_imp_aport_var33_1y3",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "delta_imp_compra_var44_1y3",
+									"type": "String"
+								},
+								"sink": {
+									"name": "delta_imp_compra_var44_1y3",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "delta_imp_reemb_var13_1y3",
+									"type": "String"
+								},
+								"sink": {
+									"name": "delta_imp_reemb_var13_1y3",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "delta_imp_reemb_var17_1y3",
+									"type": "String"
+								},
+								"sink": {
+									"name": "delta_imp_reemb_var17_1y3",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "delta_imp_reemb_var33_1y3",
+									"type": "String"
+								},
+								"sink": {
+									"name": "delta_imp_reemb_var33_1y3",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "delta_imp_trasp_var17_in_1y3",
+									"type": "String"
+								},
+								"sink": {
+									"name": "delta_imp_trasp_var17_in_1y3",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "delta_imp_trasp_var17_out_1y3",
+									"type": "String"
+								},
+								"sink": {
+									"name": "delta_imp_trasp_var17_out_1y3",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "delta_imp_trasp_var33_in_1y3",
+									"type": "String"
+								},
+								"sink": {
+									"name": "delta_imp_trasp_var33_in_1y3",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "delta_imp_trasp_var33_out_1y3",
+									"type": "String"
+								},
+								"sink": {
+									"name": "delta_imp_trasp_var33_out_1y3",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "delta_imp_venta_var44_1y3",
+									"type": "String"
+								},
+								"sink": {
+									"name": "delta_imp_venta_var44_1y3",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "delta_num_aport_var13_1y3",
+									"type": "String"
+								},
+								"sink": {
+									"name": "delta_num_aport_var13_1y3",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "delta_num_aport_var17_1y3",
+									"type": "String"
+								},
+								"sink": {
+									"name": "delta_num_aport_var17_1y3",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "delta_num_aport_var33_1y3",
+									"type": "String"
+								},
+								"sink": {
+									"name": "delta_num_aport_var33_1y3",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "delta_num_compra_var44_1y3",
+									"type": "String"
+								},
+								"sink": {
+									"name": "delta_num_compra_var44_1y3",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "delta_num_reemb_var13_1y3",
+									"type": "String"
+								},
+								"sink": {
+									"name": "delta_num_reemb_var13_1y3",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "delta_num_reemb_var17_1y3",
+									"type": "String"
+								},
+								"sink": {
+									"name": "delta_num_reemb_var17_1y3",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "delta_num_reemb_var33_1y3",
+									"type": "String"
+								},
+								"sink": {
+									"name": "delta_num_reemb_var33_1y3",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "delta_num_trasp_var17_in_1y3",
+									"type": "String"
+								},
+								"sink": {
+									"name": "delta_num_trasp_var17_in_1y3",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "delta_num_trasp_var17_out_1y3",
+									"type": "String"
+								},
+								"sink": {
+									"name": "delta_num_trasp_var17_out_1y3",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "delta_num_trasp_var33_in_1y3",
+									"type": "String"
+								},
+								"sink": {
+									"name": "delta_num_trasp_var33_in_1y3",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "delta_num_trasp_var33_out_1y3",
+									"type": "String"
+								},
+								"sink": {
+									"name": "delta_num_trasp_var33_out_1y3",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "delta_num_venta_var44_1y3",
+									"type": "String"
+								},
+								"sink": {
+									"name": "delta_num_venta_var44_1y3",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "imp_amort_var18_hace3",
+									"type": "String"
+								},
+								"sink": {
+									"name": "imp_amort_var18_hace3",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "imp_amort_var18_ult1",
+									"type": "String"
+								},
+								"sink": {
+									"name": "imp_amort_var18_ult1",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "imp_amort_var34_hace3",
+									"type": "String"
+								},
+								"sink": {
+									"name": "imp_amort_var34_hace3",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "imp_amort_var34_ult1",
+									"type": "String"
+								},
+								"sink": {
+									"name": "imp_amort_var34_ult1",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "imp_aport_var13_hace3",
+									"type": "String"
+								},
+								"sink": {
+									"name": "imp_aport_var13_hace3",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "imp_aport_var13_ult1",
+									"type": "String"
+								},
+								"sink": {
+									"name": "imp_aport_var13_ult1",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "imp_aport_var17_hace3",
+									"type": "String"
+								},
+								"sink": {
+									"name": "imp_aport_var17_hace3",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "imp_aport_var17_ult1",
+									"type": "String"
+								},
+								"sink": {
+									"name": "imp_aport_var17_ult1",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "imp_aport_var33_hace3",
+									"type": "String"
+								},
+								"sink": {
+									"name": "imp_aport_var33_hace3",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "imp_aport_var33_ult1",
+									"type": "String"
+								},
+								"sink": {
+									"name": "imp_aport_var33_ult1",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "imp_var7_emit_ult1",
+									"type": "String"
+								},
+								"sink": {
+									"name": "imp_var7_emit_ult1",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "imp_var7_recib_ult1",
+									"type": "String"
+								},
+								"sink": {
+									"name": "imp_var7_recib_ult1",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "imp_compra_var44_hace3",
+									"type": "String"
+								},
+								"sink": {
+									"name": "imp_compra_var44_hace3",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "imp_compra_var44_ult1",
+									"type": "String"
+								},
+								"sink": {
+									"name": "imp_compra_var44_ult1",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "imp_reemb_var13_hace3",
+									"type": "String"
+								},
+								"sink": {
+									"name": "imp_reemb_var13_hace3",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "imp_reemb_var13_ult1",
+									"type": "String"
+								},
+								"sink": {
+									"name": "imp_reemb_var13_ult1",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "imp_reemb_var17_hace3",
+									"type": "String"
+								},
+								"sink": {
+									"name": "imp_reemb_var17_hace3",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "imp_reemb_var17_ult1",
+									"type": "String"
+								},
+								"sink": {
+									"name": "imp_reemb_var17_ult1",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "imp_reemb_var33_hace3",
+									"type": "String"
+								},
+								"sink": {
+									"name": "imp_reemb_var33_hace3",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "imp_reemb_var33_ult1",
+									"type": "String"
+								},
+								"sink": {
+									"name": "imp_reemb_var33_ult1",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "imp_var43_emit_ult1",
+									"type": "String"
+								},
+								"sink": {
+									"name": "imp_var43_emit_ult1",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "imp_trans_var37_ult1",
+									"type": "String"
+								},
+								"sink": {
+									"name": "imp_trans_var37_ult1",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "imp_trasp_var17_in_hace3",
+									"type": "String"
+								},
+								"sink": {
+									"name": "imp_trasp_var17_in_hace3",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "imp_trasp_var17_in_ult1",
+									"type": "String"
+								},
+								"sink": {
+									"name": "imp_trasp_var17_in_ult1",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "imp_trasp_var17_out_hace3",
+									"type": "String"
+								},
+								"sink": {
+									"name": "imp_trasp_var17_out_hace3",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "imp_trasp_var17_out_ult1",
+									"type": "String"
+								},
+								"sink": {
+									"name": "imp_trasp_var17_out_ult1",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "imp_trasp_var33_in_hace3",
+									"type": "String"
+								},
+								"sink": {
+									"name": "imp_trasp_var33_in_hace3",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "imp_trasp_var33_in_ult1",
+									"type": "String"
+								},
+								"sink": {
+									"name": "imp_trasp_var33_in_ult1",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "imp_trasp_var33_out_hace3",
+									"type": "String"
+								},
+								"sink": {
+									"name": "imp_trasp_var33_out_hace3",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "imp_trasp_var33_out_ult1",
+									"type": "String"
+								},
+								"sink": {
+									"name": "imp_trasp_var33_out_ult1",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "imp_venta_var44_hace3",
+									"type": "String"
+								},
+								"sink": {
+									"name": "imp_venta_var44_hace3",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "imp_venta_var44_ult1",
+									"type": "String"
+								},
+								"sink": {
+									"name": "imp_venta_var44_ult1",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "ind_var7_emit_ult1",
+									"type": "String"
+								},
+								"sink": {
+									"name": "ind_var7_emit_ult1",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "ind_var7_recib_ult1",
+									"type": "String"
+								},
+								"sink": {
+									"name": "ind_var7_recib_ult1",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "ind_var10_ult1",
+									"type": "String"
+								},
+								"sink": {
+									"name": "ind_var10_ult1",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "ind_var10cte_ult1",
+									"type": "String"
+								},
+								"sink": {
+									"name": "ind_var10cte_ult1",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "ind_var9_cte_ult1",
+									"type": "String"
+								},
+								"sink": {
+									"name": "ind_var9_cte_ult1",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "ind_var9_ult1",
+									"type": "String"
+								},
+								"sink": {
+									"name": "ind_var9_ult1",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "ind_var43_emit_ult1",
+									"type": "String"
+								},
+								"sink": {
+									"name": "ind_var43_emit_ult1",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "ind_var43_recib_ult1",
+									"type": "String"
+								},
+								"sink": {
+									"name": "ind_var43_recib_ult1",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "var21",
+									"type": "String"
+								},
+								"sink": {
+									"name": "var21",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_var2_0_ult1",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_var2_0_ult1",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_var2_ult1",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_var2_ult1",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_aport_var13_hace3",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_aport_var13_hace3",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_aport_var13_ult1",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_aport_var13_ult1",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_aport_var17_hace3",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_aport_var17_hace3",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_aport_var17_ult1",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_aport_var17_ult1",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_aport_var33_hace3",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_aport_var33_hace3",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_aport_var33_ult1",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_aport_var33_ult1",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_var7_emit_ult1",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_var7_emit_ult1",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_var7_recib_ult1",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_var7_recib_ult1",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_compra_var44_hace3",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_compra_var44_hace3",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_compra_var44_ult1",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_compra_var44_ult1",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_ent_var16_ult1",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_ent_var16_ult1",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_var22_hace2",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_var22_hace2",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_var22_hace3",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_var22_hace3",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_var22_ult1",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_var22_ult1",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_var22_ult3",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_var22_ult3",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_med_var22_ult3",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_med_var22_ult3",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_med_var45_ult3",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_med_var45_ult3",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_meses_var5_ult3",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_meses_var5_ult3",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_meses_var8_ult3",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_meses_var8_ult3",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_meses_var12_ult3",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_meses_var12_ult3",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_meses_var13_corto_ult3",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_meses_var13_corto_ult3",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_meses_var13_largo_ult3",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_meses_var13_largo_ult3",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_meses_var13_medio_ult3",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_meses_var13_medio_ult3",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_meses_var17_ult3",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_meses_var17_ult3",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_meses_var29_ult3",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_meses_var29_ult3",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_meses_var33_ult3",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_meses_var33_ult3",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_meses_var39_vig_ult3",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_meses_var39_vig_ult3",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_meses_var44_ult3",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_meses_var44_ult3",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_op_var39_comer_ult1",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_op_var39_comer_ult1",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_op_var39_comer_ult3",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_op_var39_comer_ult3",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_op_var40_comer_ult1",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_op_var40_comer_ult1",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_op_var40_comer_ult3",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_op_var40_comer_ult3",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_op_var40_efect_ult1",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_op_var40_efect_ult1",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_op_var40_efect_ult3",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_op_var40_efect_ult3",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_op_var41_comer_ult1",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_op_var41_comer_ult1",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_op_var41_comer_ult3",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_op_var41_comer_ult3",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_op_var41_efect_ult1",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_op_var41_efect_ult1",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_op_var41_efect_ult3",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_op_var41_efect_ult3",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_op_var39_efect_ult1",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_op_var39_efect_ult1",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_op_var39_efect_ult3",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_op_var39_efect_ult3",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_reemb_var13_hace3",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_reemb_var13_hace3",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_reemb_var13_ult1",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_reemb_var13_ult1",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_reemb_var17_hace3",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_reemb_var17_hace3",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_reemb_var17_ult1",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_reemb_var17_ult1",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_reemb_var33_hace3",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_reemb_var33_hace3",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_reemb_var33_ult1",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_reemb_var33_ult1",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_sal_var16_ult1",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_sal_var16_ult1",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_var43_emit_ult1",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_var43_emit_ult1",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_var43_recib_ult1",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_var43_recib_ult1",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_trasp_var11_ult1",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_trasp_var11_ult1",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_trasp_var17_in_hace3",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_trasp_var17_in_hace3",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_trasp_var17_in_ult1",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_trasp_var17_in_ult1",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_trasp_var17_out_hace3",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_trasp_var17_out_hace3",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_trasp_var17_out_ult1",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_trasp_var17_out_ult1",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_trasp_var33_in_hace3",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_trasp_var33_in_hace3",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_trasp_var33_in_ult1",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_trasp_var33_in_ult1",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_trasp_var33_out_hace3",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_trasp_var33_out_hace3",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_trasp_var33_out_ult1",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_trasp_var33_out_ult1",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_venta_var44_hace3",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_venta_var44_hace3",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_venta_var44_ult1",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_venta_var44_ult1",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_var45_hace2",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_var45_hace2",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_var45_hace3",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_var45_hace3",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_var45_ult1",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_var45_ult1",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "num_var45_ult3",
+									"type": "String"
+								},
+								"sink": {
+									"name": "num_var45_ult3",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "saldo_var2_ult1",
+									"type": "String"
+								},
+								"sink": {
+									"name": "saldo_var2_ult1",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "saldo_medio_var5_hace2",
+									"type": "String"
+								},
+								"sink": {
+									"name": "saldo_medio_var5_hace2",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "saldo_medio_var5_hace3",
+									"type": "String"
+								},
+								"sink": {
+									"name": "saldo_medio_var5_hace3",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "saldo_medio_var5_ult1",
+									"type": "String"
+								},
+								"sink": {
+									"name": "saldo_medio_var5_ult1",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "saldo_medio_var5_ult3",
+									"type": "String"
+								},
+								"sink": {
+									"name": "saldo_medio_var5_ult3",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "saldo_medio_var8_hace2",
+									"type": "String"
+								},
+								"sink": {
+									"name": "saldo_medio_var8_hace2",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "saldo_medio_var8_hace3",
+									"type": "String"
+								},
+								"sink": {
+									"name": "saldo_medio_var8_hace3",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "saldo_medio_var8_ult1",
+									"type": "String"
+								},
+								"sink": {
+									"name": "saldo_medio_var8_ult1",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "saldo_medio_var8_ult3",
+									"type": "String"
+								},
+								"sink": {
+									"name": "saldo_medio_var8_ult3",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "saldo_medio_var12_hace2",
+									"type": "String"
+								},
+								"sink": {
+									"name": "saldo_medio_var12_hace2",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "saldo_medio_var12_hace3",
+									"type": "String"
+								},
+								"sink": {
+									"name": "saldo_medio_var12_hace3",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "saldo_medio_var12_ult1",
+									"type": "String"
+								},
+								"sink": {
+									"name": "saldo_medio_var12_ult1",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "saldo_medio_var12_ult3",
+									"type": "String"
+								},
+								"sink": {
+									"name": "saldo_medio_var12_ult3",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "saldo_medio_var13_corto_hace2",
+									"type": "String"
+								},
+								"sink": {
+									"name": "saldo_medio_var13_corto_hace2",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "saldo_medio_var13_corto_hace3",
+									"type": "String"
+								},
+								"sink": {
+									"name": "saldo_medio_var13_corto_hace3",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "saldo_medio_var13_corto_ult1",
+									"type": "String"
+								},
+								"sink": {
+									"name": "saldo_medio_var13_corto_ult1",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "saldo_medio_var13_corto_ult3",
+									"type": "String"
+								},
+								"sink": {
+									"name": "saldo_medio_var13_corto_ult3",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "saldo_medio_var13_largo_hace2",
+									"type": "String"
+								},
+								"sink": {
+									"name": "saldo_medio_var13_largo_hace2",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "saldo_medio_var13_largo_hace3",
+									"type": "String"
+								},
+								"sink": {
+									"name": "saldo_medio_var13_largo_hace3",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "saldo_medio_var13_largo_ult1",
+									"type": "String"
+								},
+								"sink": {
+									"name": "saldo_medio_var13_largo_ult1",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "saldo_medio_var13_largo_ult3",
+									"type": "String"
+								},
+								"sink": {
+									"name": "saldo_medio_var13_largo_ult3",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "saldo_medio_var13_medio_hace2",
+									"type": "String"
+								},
+								"sink": {
+									"name": "saldo_medio_var13_medio_hace2",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "saldo_medio_var13_medio_hace3",
+									"type": "String"
+								},
+								"sink": {
+									"name": "saldo_medio_var13_medio_hace3",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "saldo_medio_var13_medio_ult1",
+									"type": "String"
+								},
+								"sink": {
+									"name": "saldo_medio_var13_medio_ult1",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "saldo_medio_var13_medio_ult3",
+									"type": "String"
+								},
+								"sink": {
+									"name": "saldo_medio_var13_medio_ult3",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "saldo_medio_var17_hace2",
+									"type": "String"
+								},
+								"sink": {
+									"name": "saldo_medio_var17_hace2",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "saldo_medio_var17_hace3",
+									"type": "String"
+								},
+								"sink": {
+									"name": "saldo_medio_var17_hace3",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "saldo_medio_var17_ult1",
+									"type": "String"
+								},
+								"sink": {
+									"name": "saldo_medio_var17_ult1",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "saldo_medio_var17_ult3",
+									"type": "String"
+								},
+								"sink": {
+									"name": "saldo_medio_var17_ult3",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "saldo_medio_var29_hace2",
+									"type": "String"
+								},
+								"sink": {
+									"name": "saldo_medio_var29_hace2",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "saldo_medio_var29_hace3",
+									"type": "String"
+								},
+								"sink": {
+									"name": "saldo_medio_var29_hace3",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "saldo_medio_var29_ult1",
+									"type": "String"
+								},
+								"sink": {
+									"name": "saldo_medio_var29_ult1",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "saldo_medio_var29_ult3",
+									"type": "String"
+								},
+								"sink": {
+									"name": "saldo_medio_var29_ult3",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "saldo_medio_var33_hace2",
+									"type": "String"
+								},
+								"sink": {
+									"name": "saldo_medio_var33_hace2",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "saldo_medio_var33_hace3",
+									"type": "String"
+								},
+								"sink": {
+									"name": "saldo_medio_var33_hace3",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "saldo_medio_var33_ult1",
+									"type": "String"
+								},
+								"sink": {
+									"name": "saldo_medio_var33_ult1",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "saldo_medio_var33_ult3",
+									"type": "String"
+								},
+								"sink": {
+									"name": "saldo_medio_var33_ult3",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "saldo_medio_var44_hace2",
+									"type": "String"
+								},
+								"sink": {
+									"name": "saldo_medio_var44_hace2",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "saldo_medio_var44_hace3",
+									"type": "String"
+								},
+								"sink": {
+									"name": "saldo_medio_var44_hace3",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "saldo_medio_var44_ult1",
+									"type": "String"
+								},
+								"sink": {
+									"name": "saldo_medio_var44_ult1",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "saldo_medio_var44_ult3",
+									"type": "String"
+								},
+								"sink": {
+									"name": "saldo_medio_var44_ult3",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "var38",
+									"type": "String"
+								},
+								"sink": {
+									"name": "var38",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "TARGET",
+									"type": "String"
+								},
+								"sink": {
+									"name": "TARGET",
+									"type": "String"
+								}
+							}
+						]
+					}
 				},
 				"inputs": [
 					{
@@ -40,6 +3755,171 @@
 				"outputs": [
 					{
 						"referenceName": "AzureSqlTable1",
+						"type": "DatasetReference"
+					}
+				]
+			},
+			{
+				"name": "SQLtoADLS",
+				"type": "Copy",
+				"dependsOn": [
+					{
+						"activity": "BlobToSQL",
+						"dependencyConditions": [
+							"Succeeded"
+						]
+					}
+				],
+				"policy": {
+					"timeout": "7.00:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"source": {
+						"type": "AzureSqlSource",
+						"queryTimeout": "02:00:00"
+					},
+					"sink": {
+						"type": "DelimitedTextSink",
+						"storeSettings": {
+							"type": "AzureBlobFSWriteSettings"
+						},
+						"formatSettings": {
+							"type": "DelimitedTextWriteSettings",
+							"quoteAllText": true,
+							"fileExtension": ".txt"
+						}
+					},
+					"enableStaging": false,
+					"translator": {
+						"type": "TabularTranslator",
+						"mappings": [
+							{
+								"source": {
+									"name": "ID",
+									"type": "String"
+								},
+								"sink": {
+									"name": "AGE",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "var3",
+									"type": "String"
+								},
+								"sink": {
+									"name": "SEX",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "var15",
+									"type": "String"
+								},
+								"sink": {
+									"name": "BMI",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "imp_ent_var16_ult1",
+									"type": "String"
+								},
+								"sink": {
+									"name": "BP",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "imp_op_var39_comer_ult1",
+									"type": "String"
+								},
+								"sink": {
+									"name": "S1",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "imp_op_var39_comer_ult3",
+									"type": "String"
+								},
+								"sink": {
+									"name": "S2",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "imp_op_var40_comer_ult1",
+									"type": "String"
+								},
+								"sink": {
+									"name": "S3",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "imp_op_var40_comer_ult3",
+									"type": "String"
+								},
+								"sink": {
+									"name": "S4",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "imp_op_var40_efect_ult1",
+									"type": "String"
+								},
+								"sink": {
+									"name": "S5",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "imp_op_var40_efect_ult3",
+									"type": "String"
+								},
+								"sink": {
+									"name": "S6",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "imp_op_var40_ult1",
+									"type": "String"
+								},
+								"sink": {
+									"name": "Y",
+									"type": "String"
+								}
+							}
+						]
+					}
+				},
+				"inputs": [
+					{
+						"referenceName": "AzureSqlTable1",
+						"type": "DatasetReference"
+					}
+				],
+				"outputs": [
+					{
+						"referenceName": "ChurnTrain",
 						"type": "DatasetReference"
 					}
 				]
