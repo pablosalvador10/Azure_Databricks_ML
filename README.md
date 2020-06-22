@@ -22,11 +22,11 @@ source databrickscli/bin/activate
 pip install databricks-cli
 
 Now open Databricks and grab the token, like this:
-
+![](https://github.com/pablosalvador10/Azure_Databricks_ML/blob/master/Pictures/d2.jpg)
  
-
+![](https://github.com/pablosalvador10/Azure_Databricks_ML/blob/master/Pictures/d3.jpg)
  
- 
+![](https://github.com/pablosalvador10/Azure_Databricks_ML/blob/master/Pictures/d4.jpg)
 
 Replace the lifetime to nothing to make the token work infinitely. After generating, copy the token and save it at a safe place for future use.
 Now using the CLI again, type in these commands and follow the instructions for the token configuration:
@@ -44,3 +44,4 @@ databricks secrets list --scope dlsanalyticsprodsecretscope
 
 Now use this scope name and secret name inside Databricks to make the command work. We use something like this in our notebooks:
  
+![](https://github.com/pablosalvador10/Azure_Databricks_ML/blob/master/Pictures/d5.jpg)
