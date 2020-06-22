@@ -6,7 +6,8 @@ Here is how you can use the Databricks dbutils commands. Databricks has a secret
 
 Step 1 –
 Use the Azure CLI from the azure portal. It will be here as shown in the screenshot:
- 
+
+
 
 Follow these commands in the CLI:
 
